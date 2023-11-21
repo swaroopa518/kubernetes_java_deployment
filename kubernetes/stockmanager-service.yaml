@@ -9,6 +9,7 @@ spec:
   type: NodePort
   selector:
     app: stockmanager
+  sessionAffinity: None
   ports:
   - protocol: TCP
     port: 8030
